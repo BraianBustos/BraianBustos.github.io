@@ -1,0 +1,320 @@
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+
+.contenedor{
+	height: 2000px;
+}
+
+nav{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.logo{
+	margin-top: 30px;
+	margin-left: 440px;
+	width: 500px;
+	height: 280px;
+	display: flex;
+	justify-content: center;
+}
+
+.centro{
+	position: absolute;
+	padding: 25px 0 0 25px;
+	color: #fff;
+	margin-top: 20px;
+	width: 120px;
+	height: 120px;
+	background: #000;
+	border-radius: 50%;
+	font-size: 60px;
+	font-family:'Great Vibes', cursive;
+	font-weight: 200;
+	box-shadow: 5px -2px 15px #000;
+}
+
+.logo > .P1{
+	color: #f80000;
+	position: relative;
+	margin-left: -35px;
+	margin-top: 145px;
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: -2px -1px 3px#f80000;;
+}
+
+.logo > .P2{
+	color: #000;
+	position: relative;
+	margin-top: 183px;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	margin-left: -253px;
+	font-size: 19px;
+	font-size: cursive;
+}
+
+
+[data-title]:hover:after{
+	content: attr(data-title);
+	position: absolute;
+	padding: 5px;
+	font-size: 25px;
+	color: #fff;
+	background-color: #090;
+	z-index: 50;
+}
+
+.uno{
+	margin-left: 100px;
+	margin-top: -800px;
+	color: #900;
+}
+
+.menu-horizontal{
+	list-style: none;
+	width: 250px;
+}
+
+ul > li > div{
+	widht: 200px;
+	height: 200px;
+	background-size: cover;
+	z-index: 10;
+}
+
+.sub-contenedor1{
+	background-image: url(imágenes/descarga.jpg);
+}
+
+.sub-contenedor2{
+	background-image: url(imágenes/papasL.jpg);
+}
+
+.sub-contenedor3{
+	background-image: url(imágenes/tacosV.jpg);
+}
+
+.sub-contenedor4{
+	background-image: url(imágenes/cervezaL.jpg);
+}
+
+.menu-vertical{
+	width: 250px;
+	position: absolute;
+	display: none;
+	list-style: none;
+	text-align: center;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+	margin-top: 200px;
+	display: block;
+}
+
+.menu-vertical > li > div{
+	margin: 10px;
+}
+
+.menu-vertical > li > div > p{
+	position: absolute;
+	color: #000;
+	background: rgba(255, 255,255, .8);
+	margin-left: -7px;
+	margin-top: 145px;
+	width: 243px;
+	height: 50px;
+	border: 1px solid #fff;
+	border-radius: 4%;
+}
+
+.sub-contenedor1 >.menu-vertical > li{
+	background-size: cover;
+}
+
+.sub-contenedor1 >.menu-vertical > li:first-child{
+	background-image: url(imágenes/hamburguesa1.jpg);
+}
+
+.sub-contenedor1 >.menu-vertical > li:nth-child(2){
+	background-image: url(imágenes/hamburguesa2.jpg);	
+}
+
+.sub-contenedor1 >.menu-vertical > li:nth-child(3){
+	background-image: url(imágenes/hamburguesa3.jpg);
+}
+
+.sub-contenedor2 >.menu-vertical > li{
+	background-size: cover;
+}
+
+.sub-contenedor2 >.menu-vertical > li:first-child{
+	background-image: url(imágenes/papasfritas.jpg);
+}
+
+.sub-contenedor2 >.menu-vertical > li:nth-child(2){
+	background-image: url(imágenes/noisets.jpg)
+}
+
+.sub-contenedor2 >.menu-vertical > li:nth-child(3){
+	background-image: url(imágenes/tequeños.jpg);
+}
+
+.sub-contenedor3 >.menu-vertical > li{
+	background-size: cover;
+}
+
+.sub-contenedor3 >.menu-vertical > li:first-child{
+	background-image: url(imágenes/hamburguesaV.jpg);
+}
+
+.sub-contenedor3 >.menu-vertical > li:nth-child(2){
+	background-image: url(imágenes/tarteletas.jpg)
+}
+
+.sub-contenedor3 >.menu-vertical > li:nth-child(3){
+	background-image: url(imágenes/verduras.jpg);
+}
+
+.sub-contenedor4 >.menu-vertical > li{
+	background-size: cover;
+}
+
+.sub-contenedor4 >.menu-vertical > li:first-child{
+	background-image: url(imágenes/cervezaR.jpg);
+}
+
+.sub-contenedor4 >.menu-vertical > li:nth-child(2){
+	background-image: url(imágenes/cervezaH-.jpg)
+}
+
+.sub-contenedor4 >.menu-vertical > li:nth-child(3){
+	background-image: url(imágenes/cervezaN.jpg);
+}
+
+.pedido{
+	margin: 650px 0 0 695px;
+	width: 650px;
+	height: 500px;
+	padding: 10px;
+	border: 2px solid #000;
+}
+
+.pedido > h4{
+	margin-left: 23%;
+}
+
+h4{
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	font-size: 22.5px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+h5{
+	margin-top: 25px;
+	margin-left: 490px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.confPedido{
+	position: relative;
+	margin-top: 20px;
+	width: 120px;
+	margin-left: 88%;
+}
+
+.letra{
+	width: 450px;
+	height: 35px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.letra > p{
+	position: relative;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top:  -17px;
+	margin-left: 500px;
+	z-index: 150;
+}
+
+.pedido > div{
+	display: none;
+}
+
+.Total{
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 720px;
+	font-size: 25px;
+	font-weight: 200;
+}
+
+
+.divUno{
+	margin-top: -550px;
+	margin-left: 20px;
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.divUno > p{
+	position: relative;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top:  -18px;
+	margin-left: 500px;
+	z-index: 150;
+}
+
+.total{
+	height: 10px;
+	display: block;
+	position: absolute;
+	color: #0c0;
+	margin-top: -50px;
+	margin-left: 1200px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+#Btotal{
+	display: inline;
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 710px;
+}
+
+
+
+
+
+
+
+/*
+
+
+*/

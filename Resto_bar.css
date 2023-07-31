@@ -102,15 +102,15 @@ ul > li > div{
 }
 
 .sub-contenedor2{
-	background-image: url(imágenes/papasL.jpg);
+	background-image: url(Imágenes/papasL.jpg);
 }
 
 .sub-contenedor3{
-	background-image: url(imágenes/tacosV.jpg);
+	background-image: url(Imágenes/tacosV.jpg);
 }
 
 .sub-contenedor4{
-	background-image: url(imágenes/cervezaL.jpg);
+	background-image: url(Imágenes/cervezaL.jpg);
 }
 
 .menu-vertical{
@@ -147,15 +147,15 @@ ul > li > div{
 }
 
 .sub-contenedor1 >.menu-vertical > li:first-child{
-	background-image: url(imágenes/hamburguesa1.jpg);
+	background-image: url(Imágenes/hamburguesa1.jpg);
 }
 
 .sub-contenedor1 >.menu-vertical > li:nth-child(2){
-	background-image: url(imágenes/hamburguesa2.jpg);	
+	background-image: url(Imágenes/hamburguesa2.jpg);	
 }
 
 .sub-contenedor1 >.menu-vertical > li:nth-child(3){
-	background-image: url(imágenes/hamburguesa3.jpg);
+	background-image: url(Imágenes/hamburguesa3.jpg);
 }
 
 .sub-contenedor2 >.menu-vertical > li{
@@ -163,15 +163,15 @@ ul > li > div{
 }
 
 .sub-contenedor2 >.menu-vertical > li:first-child{
-	background-image: url(imágenes/papasfritas.jpg);
+	background-image: url(Imágenes/papasfritas.jpg);
 }
 
 .sub-contenedor2 >.menu-vertical > li:nth-child(2){
-	background-image: url(imágenes/noisets.jpg)
+	background-image: url(Imágenes/noisets.jpg)
 }
 
 .sub-contenedor2 >.menu-vertical > li:nth-child(3){
-	background-image: url(imágenes/tequeños.jpg);
+	background-image: url(Imágenes/tequeños.jpg);
 }
 
 .sub-contenedor3 >.menu-vertical > li{
@@ -179,15 +179,15 @@ ul > li > div{
 }
 
 .sub-contenedor3 >.menu-vertical > li:first-child{
-	background-image: url(imágenes/hamburguesaV.jpg);
+	background-image: url(Imágenes/hamburguesaV.jpg);
 }
 
 .sub-contenedor3 >.menu-vertical > li:nth-child(2){
-	background-image: url(imágenes/tarteletas.jpg)
+	background-image: url(Imágenes/tarteletas.jpg)
 }
 
 .sub-contenedor3 >.menu-vertical > li:nth-child(3){
-	background-image: url(imágenes/verduras.jpg);
+	background-image: url(Imágenes/verduras.jpg);
 }
 
 .sub-contenedor4 >.menu-vertical > li{
@@ -195,15 +195,15 @@ ul > li > div{
 }
 
 .sub-contenedor4 >.menu-vertical > li:first-child{
-	background-image: url(imágenes/cervezaR.jpg);
+	background-image: url(Imágenes/cervezaR.jpg);
 }
 
 .sub-contenedor4 >.menu-vertical > li:nth-child(2){
-	background-image: url(imágenes/cervezaH-.jpg)
+	background-image: url(Imágenes/cervezaH-.jpg)
 }
 
 .sub-contenedor4 >.menu-vertical > li:nth-child(3){
-	background-image: url(imágenes/cervezaN.jpg);
+	background-image: url(Imágenes/cervezaN.jpg);
 }
 
 .pedido{

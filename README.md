@@ -11,4 +11,4 @@ de comensales y una mayor optimización y estructuración del código.
 
 A continuación comparto el link de la web para que puedan probar su funcionalidad, espero sea de su agrado.
 
-https://elecondalma.000webhostapp.com/
+https://braianbustos.github.io/

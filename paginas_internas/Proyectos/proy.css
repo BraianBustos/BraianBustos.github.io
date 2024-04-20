@@ -283,14 +283,38 @@ footer{
     }
 
     .desarrolloft ul{
-        margin-top:-195px;
-        margin-left: -10px;
-        padding-bottom: 20px;
-        
-    }   
+    margin-top:-170px;
+    margin-left: 10px;
+    padding-bottom: 20px;
     
+    }
+
+    .desarrolloft ul li{
+        margin-left: 50px;
+        margin-bottom: 32px;
+    }
+
+    .desarrolloft ul li a{
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    .desarrolloft ul li{ 
+        color: #fff;
+    }
+    
+    .desarrolloft span{
+        margin-top: 15px ;
+        margin-left: 20px;
+        position: relative;
+        display: block;
+        color: #fff;
+    }
+
     .face{
         margin-left: 16%;
     }
 
+    
 }

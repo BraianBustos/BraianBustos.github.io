@@ -317,7 +317,7 @@ footer{
     background-color: rgb(33, 179, 179);
 }
 
-@media(max-width:768px){
+@media(max-width:900px){
     header{
         padding: 0 30px;
     }

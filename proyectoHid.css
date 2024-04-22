@@ -320,7 +320,7 @@ footer{
 @media(min-width:360px) {
 
     body{
-        height: 100vh;
+        height: 200vh;
     }
 
     header{

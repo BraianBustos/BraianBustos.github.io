@@ -802,7 +802,7 @@ footer{
     .información .dos .sombrainf h5,
     .información .tres .sombrainf h5,
     .información .cuatro .sombrainf h5{
-        margin-top: -5%;
+        margin-top: -2%;
         font-size: 20px;
     }
 
@@ -845,7 +845,7 @@ footer{
     }
 
     .desarrolloft ul{
-        margin-top:-185px;
+        margin-top:-178px;
         margin-left: 20px;
         padding-bottom: 25px;
     }

@@ -319,7 +319,7 @@ footer{
 }
 
 
-@media(min-width:360px){
+@media(max-width:360px){
 
     body{
         height: 140vh;

@@ -317,8 +317,7 @@ footer{
 .twiter:hover{
     background-color: rgb(33, 179, 179);
 }
-
-@media(min-width:436px){
+@media(max-width:436px){
     body{
         height: 140vh;
         min-width: 360px;
@@ -400,8 +399,9 @@ footer{
 
     .titulo p{
         margin-left: 2%;
-        margin-top: -40%; 
-        font-size: 30;
+        margin-top: -30%; 
+        font-size: 25px;
+        width: 150px;
     }
     
     @keyframes desplazar {
@@ -429,15 +429,15 @@ footer{
         margin-top:10%;
         margin-left: 4%;
         width: 90%;
-        height: 20%;
+        height: 50%;
     }
 
     .desarrollo div{
-        margin: 20px 5%;
+        margin: 5%;
         display: block;
         width:100%;
         height: 20%;
-        padding: 10px;
+        padding-left: 10px;
         text-align: center;
         background-color: #439e99;;
         border: 2px solid #fff;
@@ -456,10 +456,10 @@ footer{
     }
 
     .información{
-        margin-top: -25%;
+        margin-top: 20%;
         margin-left: 11%;
         width:85%;
-        height: 40%;
+        height: 50%;
     }
 
     .información .uno, .información .dos, .información .tres,
@@ -468,15 +468,13 @@ footer{
         width:97%;
         height: 97%;  
         color: #fff;
-        font-size: 28;
-        font-weight: 400;  
-
+        font-weight: 200;  
     }
 
     .sombrainf{
         margin: 3%;
         width:94%;
-        height: 11%;
+        height: 20%;
         background-color: #000;
         opacity: .75;
         z-index: 50; 
@@ -486,7 +484,8 @@ footer{
     .información .dos .sombrainf h5,
     .información .tres .sombrainf h5,
     .información .cuatro .sombrainf h5{
-        margin-top: -5%;
+        margin-top: -8%;
+        font-size: 20px;
     }
 
     .uno{
@@ -522,8 +521,8 @@ footer{
     
     footer{
         width: 100%;
-        height: 20%;
-        margin-top:30%;
+        height: 60%;
+        margin-top:80%;
         background-color: #439e99;
     }
 
@@ -570,7 +569,7 @@ footer{
     }
 
     .face{
-        margin-left: 30%;
+        margin-left: -5%;
     }
 
     .whats,.insta, .twiter{
@@ -614,7 +613,7 @@ footer{
         margin: 5%;
         width: 90%; 
     }
-
+    
     .cuatro:hover p{
         display: block;
         margin: 6%;
@@ -626,8 +625,6 @@ footer{
     .tres:hover .sombrainf,.cuatro:hover .sombrainf{
         display: none;
     }
-
-
 }
 
 /*RESOLUCIÓN MÁS BAJA!!!*/

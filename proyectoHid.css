@@ -317,7 +317,7 @@ footer{
 .twiter:hover{
     background-color: rgb(33, 179, 179);
 }
-@media(max-width:436px){
+@media(max-width:480px){
     body{
         height: 140vh;
         min-width: 360px;
